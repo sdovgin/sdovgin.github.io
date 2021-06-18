@@ -6,6 +6,10 @@
     padding: 50px 0;
 }
 
+.banner h1 {
+    font-family: "Roboto Mono";
+}
+
 #small-sarah {
     height: 200px;
     width: 135px;
