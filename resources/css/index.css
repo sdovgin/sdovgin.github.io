@@ -6,22 +6,56 @@ form h3 {
     text-align: left;
 }
 
-.banner {
-    background-color: cornflowerblue;
+.nav {
+    background-color: #F8AD9D;
+    padding: 20px 30px;
+    
+}
+
+.nav a{
     color: white;
-    margin-top: 75px;
+    padding: 20px;
+    font-family: "Poppins";
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.chunk {
+    font-family: "Poppins";
+    color: white;
+    padding: 10px 30px 20px;
+}
+
+#about, #projects {
+    background-color: #F4978E;
+}
+
+#contact {
+    background-color: #F4978E;
+    padding-bottom: 50px;
+}
+
+#resume,#things-to-add  {
+    background-color: #F8AD9D;
+}
+
+.banner {
+    font-family: "Poppins";
+    background-color: #F08080;
+    color: white;
     text-align: center;
     padding: 50px 0;
 }
 
 .banner h1 {
-    font-family: "Roboto Mono";
-    text-align: left;
-    margin: 30px 50px 0px;
+    font-weight: 600;
+    text-align: center;
+    margin: 25px 50px 0px 50px;
 }
 
 .banner h3 {
-    text-align: left;
+    font-weight: 400;
+    text-align: center;
     margin: 10px 50px 0px;
 }
 
@@ -29,7 +63,8 @@ form h3 {
     height: 200px;
     width: 135px;
     border-radius: 60%;
-    border: 5px solid white;
+    border: 7px solid #FFDAB9;
+    margin-top: 15px;
 }
 
 #title {
@@ -44,16 +79,21 @@ form h3 {
 .contact-link {
     margin: 45px;
     padding: 12px 50px;
-    border: 1px solid #466995;
+    border: 5px solid #FBC4AB;
     border-radius: 10px;
     text-decoration: none;
-    box-shadow: 0px 4px;
-  }
+    color: #F08080;
+    background-color: white;
+}
+
+.contact-link a {
+    color: white;
+}
   
 .contact-link:active {
     margin-top: 24px;
     margin-bottom: 16px;
-    box-shadow: 0px 0px;
-    background-color: #C0D6DF;
+    border-radius: 10px;
+    background-color: #F8AD9D;
     color: #ffffff;
   }
