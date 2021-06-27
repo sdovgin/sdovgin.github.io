@@ -28,7 +28,7 @@ form h3 {
     padding: 10px 30px 20px;
 }
 
-#about, #projects {
+#about, #resume {
     background-color: #F4978E;
 }
 
@@ -37,7 +37,7 @@ form h3 {
     padding-bottom: 50px;
 }
 
-#resume,#things-to-add  {
+#projects,#things-to-add  {
     background-color: #F8AD9D;
 }
 
@@ -95,6 +95,30 @@ form h3 {
     background-color: white;
     font-weight: 600;
 }
+
+.experience-chunk {
+    margin: 5px 0px;
+    padding: 12px 50px;
+    border: 5px solid #FBC4AB;
+    border-radius: 10px;
+    text-decoration: none;
+    color: #F08080;
+    background-color: white;
+    font-weight: 600;
+}
+
+.experience-chunk h1 {
+    margin: 0px;
+    text-align: left;
+}
+
+.experience-chunk h3 {
+    margin: 0px;
+    text-align: left;
+    color: #FBC4AB;
+    font-style: italic;
+}
+
 
 .contact-link a {
     color: white;
